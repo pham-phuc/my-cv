@@ -95,8 +95,12 @@ ul.profile-information li:before {
 .testimonials .comment .top-section {
   display: inline-block;
 }
-.owl-carousel .owl-item {
+.slide .slide-item {
   float: left;
+}
+.slide {
+  gap: 10px;
+  justify-content: center;
 }
 .testimonials .comment {
   border-radius: 8px;

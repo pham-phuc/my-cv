@@ -1,25 +1,106 @@
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .tab {
     display: none;
   }
   .tab:first-child {
     display: block;
   }
-  /* .tabs {
-    display: flex;
-  } */
+
   #bars {
     z-index: 100;
   }
-}
+} */
 
-.nav-item-render {
-  display: block;
-}
+/* NAvbar responsive mobile*/
+@media screen and (max-width: 601px) {
+  .nav-position {
+    position: relative;
+  }
+  .tabs {
+    position: absolute;
+    top: 8em;
+    z-index: 1000;
+    width: 90%;
+    box-shadow: 0 2px 92px #0000000d;
+  }
+  .tab:first-child {
+    position: absolute;
+    top: -8em;
+    background: no-repeat;
+  }
 
-.test {
-  height: 1000px;
+  .tab:not(:first-child) {
+    display: none;
+    z-index: 1000;
+    border-bottom: 1px solid #efefef;
+    text-align: center;
+  }
+  .tabs li a {
+    cursor: pointer;
+    width: 100%;
+    line-height: 58px;
+    display: block;
+  }
+
+  #bars {
+    z-index: 100;
+  }
+  .nav-item-render {
+    display: block !important;
+    float: none;
+    z-index: 1000;
+    background: #fff;
+  }
 }
+/* NAvbar responsive Tablets*/
+@media screen and (width>= 601px) and (width <= 960px) {
+  .nav-position {
+    position: relative;
+  }
+  .tabs {
+    position: absolute;
+    top: 10em;
+    z-index: 1000;
+    width: 28rem;
+  }
+  .tab:first-child {
+    position: absolute;
+    top: -10em;
+    background: no-repeat;
+  }
+  .tab:not(:first-child) {
+    display: none;
+    z-index: 1000;
+    border-bottom: 1px solid #efefef;
+    text-align: center;
+  }
+  .tabs li a {
+    cursor: pointer;
+    width: 100%;
+    line-height: 58px;
+    display: block;
+  }
+
+  #bars {
+    z-index: 100;
+  }
+  header nav .site-btn {
+    margin: 13px 13px 0 3px;
+  }
+  .nav-item-render {
+    display: block !important;
+    transition: ;
+    float: none;
+    z-index: 1000;
+    background: #fff;
+  }
+  .timeline li .line-title {
+    font-size: 16px;
+    line-height: inherit;
+  }
+}
+/* NAvbar responsive Laptops and Small Desktops.*/
+
 /* resposive my service */
 @media (width <= 991px) {
   .services .service {

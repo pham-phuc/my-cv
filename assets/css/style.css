@@ -81,10 +81,6 @@ body {
 .padding_60 {
   padding-top: 60px;
 }
-.container {
-  width: 100%;
-  margin: auto;
-}
 
 .pointer {
   cursor: pointer;
@@ -203,6 +199,9 @@ body {
   font-size: 14px;
   font-weight: 500;
   line-height: 35px;
+}
+.site-btn {
+  background: #ffc500;
 }
 .site-btn.icon {
   text-align: left;

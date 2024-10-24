@@ -7,6 +7,22 @@ elnavs.forEach((elnav) => {
   });
 });
 
+// let clickRenderNav = document.getElementById("bars");
+
+// clickRenderNav.addEventListener("click", () => {
+//   let x = document.querySelectorAll(".tab");
+//   x.forEach((el) => {
+//     if (el.classList.value.indexOf("nav-item-render") === -1) {
+//       el.classList.add("nav-item-render");
+//     } else {
+//       el.classList.remove("nav-item-render");
+//     }
+//   });
+// });
+
+
+
+
 let clickRenderNav = document.getElementById("bars");
 
 clickRenderNav.addEventListener("click", () => {
