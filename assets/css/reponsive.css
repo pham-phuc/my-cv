@@ -29,9 +29,23 @@
   .own-item {
     margin-bottom: 30px;
   }
-  /* .cbp-item {
+  .blog-wrapper {
     display: grid;
-    grid-template-columns: 1fr;
-    width: 365px;
-  } */
+    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+  }
+  .blog-item:nth-child(4),
+  .blog-item:nth-child(5),
+  .blog-item:nth-child(6) {
+    margin-top: 0;
+  }
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
 }

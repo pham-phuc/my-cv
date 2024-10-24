@@ -12,7 +12,7 @@ a {
   padding: 0;
   font-size: 100%;
   text-decoration: none !important;
-  color:#000
+  color: #000;
 }
 
 article,
@@ -39,13 +39,57 @@ body {
   position: relative;
   overflow-x: hidden;
 }
-
-.pointer {
-  cursor: pointer;
+.bottom_15 {
+  margin-bottom: 15px;
+}
+.top_15 {
+  margin-top: 15px;
+}
+.padbot_50 {
+  padding-bottom: 50px;
+}
+.padding_50 {
+  padding-top: 50px;
+}
+.padbot_45 {
+  padding-bottom: 45px;
+}
+.padding_30 {
+  padding-top: 30px;
+}
+.bottom_15 {
+  margin-bottom: 15px;
+}
+.padding_45 {
+  padding-top: 45px;
+}
+.padbot_30 {
+  padding-bottom: 30px;
+}
+.top_30 {
+  margin-top: 30px;
 }
 .top_60 {
   margin-top: 60px;
 }
+.bottom_30 {
+  margin-bottom: 30px;
+}
+.bottom_45 {
+  margin-bottom: 45px;
+}
+.padding_60 {
+  padding-top: 60px;
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
 .profile {
   -o-border-radius: 6px;
   background: #fff;
@@ -297,18 +341,6 @@ section.graybg {
 section:last-child {
   border: 0;
 }
-.padbot_50 {
-  padding-bottom: 50px;
-}
-.padding_50 {
-  padding-top: 50px;
-}
-.padbot_45 {
-  padding-bottom: 45px;
-}
-.padding_30 {
-  padding-top: 30px;
-}
 
 .section-title {
   padding: 0 3px;
@@ -333,17 +365,13 @@ section:last-child {
 .section-title span {
   background-color: #ffb100;
 }
-.top_30 {
-  margin-top: 30px;
-}
+
 p {
   color: #4c4c4c;
   font-size: 13px;
   line-height: 24px;
 }
-.bottom_45 {
-  margin-bottom: 45px;
-}
+
 /* My service */
 .service {
   background: #fff;
@@ -361,10 +389,6 @@ p {
   color: #989898;
   font-weight: 400;
   line-height: 18px;
-}
-
-.padding_60 {
-  padding-top: 60px;
 }
 
 /* skill list */
@@ -404,12 +428,7 @@ footer .footer {
   min-height: 70px;
   line-height: 72px;
 }
-.bottom_30 {
-  margin-bottom: 30px;
-}
-.top_30 {
-  margin-top: 30px;
-}
+
 footer .footer .name {
   color: #fff;
   font-size: 15px;
