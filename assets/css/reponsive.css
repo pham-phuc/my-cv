@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+  .tab {
+    display: none;
+  }
+  .tab:first-child {
+    display: block;
+  }
+  /* .tabs {
+    display: flex;
+  } */
+  #bars {
+    z-index: 100;
+  }
+}
+
+.nav-item-render {
+  display: block;
+}
+
+.test {
+  height: 1000px;
+}
+/* resposive my service */
+@media (width <= 991px) {
+  .services .service {
+    margin-bottom: 30px;
+  }
+  .clients .client,
+  .own-item {
+    margin-bottom: 30px;
+  }
+  /* .cbp-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 365px;
+  } */
+}
